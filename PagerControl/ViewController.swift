@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var pager: UIPageControl!
-    let data: [Int] = [1, 2, 3, 4]
+    let data: [Int] = [1, 2, 3, 4, 5]
     
     override func viewDidLoad() {
         super.viewDidLoad()
