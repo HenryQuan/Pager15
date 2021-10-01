@@ -8,12 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var pager: UIPageControl!
+    let data: [Int] = [1, 2, 3, 4]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        pager.numberOfPages = data.count
     }
-
-
 }
 
