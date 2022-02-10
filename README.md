@@ -13,3 +13,6 @@ The UIPageControl has enough space to show even 5 dots on iOS 14.5 (iPhone 12) w
 ## Comparison
 
 This is a simple comparison between iOS 14.5 and iOS 15, [the demo](https://github.com/HenryQuan/Pager15/blob/master/comparison.mov).
+
+
+This was fixed in iOS 15.2 or later.
